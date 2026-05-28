@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+    
+    <title>Strawberry Delights</title>
+    <style>
+      body { font-family: 'Plus Jakarta Sans', sans-serif; }
+      .font-serif-title { font-family: 'Playfair Display', serif; }
+    </style>
+  </head>
+  <body class="bg-[#FFF0F0] text-gray-800 antialiased selection:bg-[#FDAAAA] selection:text-white">
+
+    <header class="bg-[#3A6F43] sticky top-0 z-50 shadow-sm">
+        <nav class="w-11/12 max-w-7xl mx-auto py-4 flex justify-between items-center relative">
+            <a href="#" class="font-serif-title text-2xl md:text-3xl font-extrabold text-white tracking-wide hover:scale-105 transition-transform duration-300">
+              Strawberry_Matcha<span class="text-[#FDAAAA]">.</span>
+            </a>
+            
+            <ul class="menu hidden md:flex md:flex-row md:static md:w-auto gap-2 lg:gap-4 items-center">
+                <li><a href="#services" class="block text-white font-medium px-4 py-2 rounded-lg hover:bg-white/10 hover:text-[#FDAAAA] transition-all duration-300">Menu</a></li>
+                <li><a href="#portofolio" class="block text-white font-medium px-4 py-2 rounded-lg hover:bg-white/10 hover:text-[#FDAAAA] transition-all duration-300">Gallery</a></li>
+                <li><a href="#about" class="block text-white font-medium px-4 py-2 rounded-lg hover:bg-white/10 hover:text-[#FDAAAA] transition-all duration-300">About</a></li>
+                <li class="md:ml-2">
+                    <a href="#" class="block bg-[#FDAAAA] text-[#3A6F43] font-bold py-2.5 px-6 rounded-xl hover:bg-white hover:text-[#3A6F43] hover:shadow-md active:scale-95 transition-all duration-300 text-center">
+                      Order Now
+                    </a>
+                </li>
+            </ul>
+            
+            <button class="hamburger-menu text-2xl text-white md:hidden cursor-pointer focus:outline-none w-10 h-10 flex items-center justify-center rounded-lg hover:bg-white/10 transition">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" style="display: none;"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="relative bg-gradient-to-b from-[#59AC77] to-[#3A6F43] overflow-hidden min-h-[90vh] flex items-center">
+        <div class="absolute -top-10 -left-10 w-40 h-40 bg-[#FDAAAA]/20 rounded-full blur-2xl"></div>
+        <div class="absolute -bottom-20 -right-10 w-60 h-60 bg-[#FFD5D5]/10 rounded-full blur-3xl"></div>
+
+        <div class="w-11/12 max-w-4xl mx-auto text-center text-white py-10 relative z-10">
+            <span class="inline-block bg-[#32613A] text-[#FDAAAA] text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6 shadow-sm border border-[#448053]">
+              ✨ Sweetness in Every Bite
+            </span>
+            <h1 class="font-serif-title text-4xl sm:text-5xl md:text-7xl font-extrabold text-center mb-6 leading-tight drop-shadow-sm">
+              Fresh Strawberry <br class="hidden sm:inline"><span class="italic text-[#FFF0F0] text-opacity-95 font-normal">Treats & Delights</span>
+            </h1>
+            <p class="text-emerald-50 text-base md:text-xl font-light mb-10 max-w-xl mx-auto leading-relaxed">
+              Nikmati berbagai hidangan manis nan estetik berbahan dasar strawberry segar pilihan yang dipadukan dengan kelembutan rasa matcha premium.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+              <a href="#services" class="bg-white text-[#3A6F43] font-bold py-3.5 px-8 rounded-xl hover:bg-[#FFF0F0] hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0 transition-all duration-300">
+                Explore Menu
+              </a>
+              <a href="#portofolio" class="border-2 border-white/40 text-white font-semibold py-3.5 px-8 rounded-xl hover:bg-white/10 hover:border-white transition-all duration-300">
+                See Gallery
+              </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="bg-[#FFD5D5]/40 py-24 relative">
+        <div class="w-11/12 max-w-7xl mx-auto">
+            <div class="text-center max-w-xl mx-auto mb-16">
+              <h2 class="font-serif-title text-4xl md:text-5xl font-extrabold text-[#3A6F43] mb-4">Our Strawberry Matcha Menu</h2>
+              <div class="w-24 h-1 bg-[#3A6F43] mx-auto rounded-full mb-4"></div>
+              <p class="text-gray-600 font-medium">Kreasi dessert bertema strawberry dan matcha yang manis, segar, dan bikin mood kamu naik lagi!</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 p-6 bg-white rounded-2xl items-center sm:items-start shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-pink-100">
+                    <div class="overflow-hidden rounded-xl w-[120px] h-[120px] min-w-[120px] shadow-sm">
+                      <img src="img/strawberry whipped cream matcha sando sandwich + red & white strawberries + milk • happiness in every bite _ breakfast, brunch, yummy, delicious, aesthetics, fruit, desserts.jpg" alt="Sandwich" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="text-center sm:text-left flex flex-col justify-between h-full pt-1">
+                        <div>
+                          <h4 class="text-xl font-bold mb-2 text-[#3A6F43] group-hover:text-[#59AC77] transition-colors">Sandwich Strawberry Matcha</h4>
+                          <p class="text-gray-500 text-sm leading-relaxed mb-4">Roti super lembut ala Jepang berisi potongan strawberry manis melimpah dan krim matcha spesial.</p>
+                        </div>
+                        <a href="#" class="inline-flex items-center text-sm font-bold text-[#3A6F43] hover:text-[#FDAAAA] transition">
+                          Read details <i class="fa-solid fa-arrow-right ml-1.5 text-xs group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="group flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 p-6 bg-white rounded-2xl items-center sm:items-start shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-pink-100">
+                    <div class="overflow-hidden rounded-xl w-[120px] h-[120px] min-w-[120px] shadow-sm">
+                      <img src="img/download (14).jpg" alt="Mochi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="text-center sm:text-left flex flex-col justify-between h-full pt-1">
+                        <div>
+                          <h4 class="text-xl font-bold mb-2 text-[#3A6F43] group-hover:text-[#59AC77] transition-colors">Mochi Strawberry Matcha</h4>
+                          <p class="text-gray-500 text-sm leading-relaxed mb-4">Mochi kenyal nan lembut berisi buah strawberry utuh juicy dilapisi pasta matcha yang pas pahit-manisnya.</p>
+                        </div>
+                        <a href="#" class="inline-flex items-center text-sm font-bold text-[#3A6F43] hover:text-[#FDAAAA] transition">
+                          Read details <i class="fa-solid fa-arrow-right ml-1.5 text-xs group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="group flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 p-6 bg-white rounded-2xl items-center sm:items-start shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-pink-100">
+                    <div class="overflow-hidden rounded-xl w-[120px] h-[120px] min-w-[120px] shadow-sm">
+                      <img src="img/download (15).jpg" alt="Latte" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="text-center sm:text-left flex flex-col justify-between h-full pt-1">
+                        <div>
+                          <h4 class="text-xl font-bold mb-2 text-[#3A6F43] group-hover:text-[#59AC77] transition-colors">Strawberry Matcha Latte</h4>
+                          <p class="text-gray-500 text-sm leading-relaxed mb-4">Gradasi cantik dari sirup strawberry asli, susu segar creamy, serta pure ceremonial matcha jepang.</p>
+                        </div>
+                        <a href="#" class="inline-flex items-center text-sm font-bold text-[#3A6F43] hover:text-[#FDAAAA] transition">
+                          Read details <i class="fa-solid fa-arrow-right ml-1.5 text-xs group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="group flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 p-6 bg-white rounded-2xl items-center sm:items-start shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-pink-100">
+                    <div class="overflow-hidden rounded-xl w-[120px] h-[120px] min-w-[120px] shadow-sm">
+                      <img src="img/Strawberry matcha pancake.jpg" alt="Pancake" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="text-center sm:text-left flex flex-col justify-between h-full pt-1">
+                        <div>
+                          <h4 class="text-xl font-bold mb-2 text-[#3A6F43] group-hover:text-[#59AC77] transition-colors">Pancake Strawberry Matcha</h4>
+                          <p class="text-gray-500 text-sm leading-relaxed mb-4">Pancake super fluffy tebal disajikan hangat dengan sirup maple kental, matcha glaze, dan buah berry segar.</p>
+                        </div>
+                        <a href="#" class="inline-flex items-center text-sm font-bold text-[#3A6F43] hover:text-[#FDAAAA] transition">
+                          Read details <i class="fa-solid fa-arrow-right ml-1.5 text-xs group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portofolio" class="py-24 bg-white">
+        <div class="w-11/12 max-w-7xl mx-auto">
+            <div class="text-center max-w-xl mx-auto mb-16">
+              <h2 class="font-serif-title text-4xl md:text-5xl font-extrabold text-[#3A6F43] mb-4">Sweet Gallery</h2>
+              <div class="w-24 h-1 bg-[#3A6F43] mx-auto rounded-full mb-4"></div>
+              <p class="text-gray-500">Potret estetik dari kebahagiaan para pelanggan Strawberry Delights.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="group relative shadow-md rounded-2xl overflow-hidden bg-gray-50 border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <a href="#" class="block overflow-hidden">
+                        <img src="img/strawberry whipped cream matcha sando sandwich + red & white strawberries + milk • happiness in every bite _ breakfast, brunch, yummy, delicious, aesthetics, fruit, desserts.jpg" class="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-500" alt="Sandwich Gallery">
+                        <div class="py-4 px-5 bg-white border-t border-gray-50">
+                            <h4 class="text-center font-bold text-sm text-gray-700 group-hover:text-[#3A6F43] transition-colors">Sandwich Strawberry Matcha</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="group relative shadow-md rounded-2xl overflow-hidden bg-gray-50 border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <a href="#" class="block overflow-hidden">
+                        <img src="img/download (14).jpg" class="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-500" alt="Mochi Gallery">
+                        <div class="py-4 px-5 bg-white border-t border-gray-50">
+                            <h4 class="text-center font-bold text-sm text-gray-700 group-hover:text-[#3A6F43] transition-colors">Mochi Strawberry Matcha</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="group relative shadow-md rounded-2xl overflow-hidden bg-gray-50 border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <a href="#" class="block overflow-hidden">
+                        <img src="img/How To Make Easy Strawberry Matcha Cake - MorimaDz.jpg" class="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-500" alt="Cake Gallery">
+                        <div class="py-4 px-5 bg-white border-t border-gray-50">
+                            <h4 class="text-center font-bold text-sm text-gray-700 group-hover:text-[#3A6F43] transition-colors">Strawberry Matcha Cake</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="group relative shadow-md rounded-2xl overflow-hidden bg-gray-50 border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <a href="#" class="block overflow-hidden">
+                        <img src="img/download (13).jpg" class="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-500" alt="Souffle Gallery">
+                        <div class="py-4 px-5 bg-white border-t border-gray-50">
+                            <h4 class="text-center font-bold text-sm text-gray-700 group-hover:text-[#3A6F43] transition-colors">Strawberry Matcha Souffle</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="w-11/12 max-w-7xl mx-auto py-24 border-t border-gray-100">
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+            <div class="w-full max-w-md lg:w-1/2 relative">
+                <div class="absolute -bottom-4 -right-4 w-full h-full bg-[#FDAAAA] rounded-2xl -z-10"></div>
+                <img src="img/Drinks by venue.jpg" class="w-full rounded-2xl shadow-md object-cover aspect-[4/5]" alt="Strawberry Drinks">
+            </div>
+            
+            <div class="w-full lg:w-1/2 text-center lg:text-left">
+                <span class="text-[#3A6F43] font-bold text-sm uppercase tracking-wider block mb-3">Our Story</span>
+                <h3 class="font-serif-title text-4xl md:text-5xl font-extrabold mb-6 text-[#3A6F43]">About Strawberry Delights</h3>
+                <p class="mb-5 text-gray-600 leading-relaxed text-base md:text-lg">
+                  Semua kebahagiaan berawal dari buah strawberry dan matcha terbaik. Kami menghadirkan berbagai hidangan penutup premium yang diracik sepenuh hati menggunakan buah lokal segar berkualitas tinggi.
+                </p>
+                <p class="mb-8 border-b border-gray-200 pb-6 text-gray-600 leading-relaxed">
+                  Kami percaya bahwa dessert bukan sekadar makanan manis biasa, melainkan sebuah seni rasa yang mampu menciptakan senyuman di setiap momen santai Anda.
+                </p>
+                
+                <div>
+                  <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Follow Our Sweet Journey</p>
+                  <ul class="flex flex-wrap justify-center lg:justify-start gap-4 text-base font-semibold">
+                      <li>
+                        <a href="#" class="flex items-center gap-2 bg-[#FFD5D5]/40 text-[#3A6F43] px-4 py-2 rounded-xl hover:bg-[#3A6F43] hover:text-white transition-all duration-300 shadow-sm">
+                          <i class="fa-brands fa-tiktok"></i> Tiktok
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="flex items-center gap-2 bg-[#FFD5D5]/40 text-[#3A6F43] px-4 py-2 rounded-xl hover:bg-[#3A6F43] hover:text-white transition-all duration-300 shadow-sm">
+                          <i class="fa-brands fa-instagram"></i> Instagram
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="flex items-center gap-2 bg-[#FFD5D5]/40 text-[#3A6F43] px-4 py-2 rounded-xl hover:bg-[#3A6F43] hover:text-white transition-all duration-300 shadow-sm">
+                          <i class="fa-brands fa-twitter"></i> Twitter
+                        </a>
+                      </li>
+                  </ul>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-sm font-medium bg-[#3A6F43] text-emerald-100/90 border-t border-[#32613A]">
+        <div class="w-11/12 max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p class="font-serif-title text-xl font-bold text-white">Strawberry<span class="text-[#FDAAAA]">.</span></p>
+          <p>&copy; 2026 Chantika.K &bull; Crafted with Love.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
